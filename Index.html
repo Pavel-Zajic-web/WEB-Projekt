@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moje Portfolio</title>
     <style>
-        /* Reset a základní styly */
+
         * {
             margin: 0;
             padding: 0;
@@ -14,7 +14,7 @@
         }
 
         body {
-            background-color: #0f172a; /* Tmavé moderní pozadí */
+            background-color: #0f172a;
             color: #f8fafc;
             line-height: 1.6;
         }
@@ -25,7 +25,6 @@
             padding: 20px;
         }
 
-        /* Hlavička / Navigace */
         header {
             display: flex;
             justify-content: space-between;
@@ -37,7 +36,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
-            color: #38bdf8; /* Světle modrý akcent */
+            color: #38bdf8;
         }
 
         nav a {
@@ -51,7 +50,6 @@
             color: #38bdf8;
         }
 
-        /* Úvodní sekce (Hero) */
         .hero {
             padding: 80px 0;
             text-align: center;
@@ -84,7 +82,6 @@
             opacity: 0.9;
         }
 
-        /* Sekce s ukázkami práce */
         .projects {
             padding: 60px 0;
         }
@@ -117,7 +114,7 @@
         .card-img {
             width: 100%;
             height: 200px;
-            background-color: #334155; /* Zástupné pozadí pro obrázek */
+            background-color: #334155;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -138,7 +135,6 @@
             font-size: 0.95rem;
         }
 
-        /* Kontakt */
         .contact {
             padding: 60px 0;
             text-align: center;
@@ -149,7 +145,6 @@
             margin-bottom: 20px;
         }
 
-        /* Patička */
         footer {
             text-align: center;
             padding: 40px 0;
@@ -157,7 +152,6 @@
             font-size: 0.9rem;
         }
 
-        /* Responzivita pro mobily */
         @media (max-width: 600px) {
             header {
                 flex-direction: column;
@@ -175,7 +169,7 @@
 <body>
 
 <div class="container">
-    <!-- Hlavička -->
+
     <header>
         <div class="logo">Pavel Zajíc</div>
         <nav>
@@ -184,19 +178,16 @@
         </nav>
     </header>
 
-    <!-- Úvod -->
     <section class="hero">
         <h1>Ahoj, já jsem Pavel 👋</h1>
         <p>Jsem začínající tvůrce zaměřený na design, kódování a digitální projekty. Pomáhám lidem proměňovat jejich myšlenky v realitu.</p>
         <a href="#kontakt" class="btn">Napište mi</a>
     </section>
 
-    <!-- Projekty -->
     <section id="projekty" class="projects">
         <h2>Moje práce</h2>
         <div class="grid">
 
-            <!-- Projekt 1 -->
             <div class="card">
                 <div class="card-img">[ Obrázek projektu 1 ]</div>
                 <div class="card-content">
@@ -205,7 +196,6 @@
                 </div>
             </div>
 
-            <!-- Projekt 2 -->
             <div class="card">
                 <div class="card-img">[ Obrázek projektu 2 ]</div>
                 <div class="card-content">
@@ -214,7 +204,6 @@
                 </div>
             </div>
 
-            <!-- Projekt 3 -->
             <div class="card">
                 <div class="card-img">[ Obrázek projektu 3 ]</div>
                 <div class="card-content">
@@ -226,13 +215,11 @@
         </div>
     </section>
 
-
     <section id="kontakt" class="contact">
         <h2>Máte zájem o spolupráci?</h2>
         <p style="color: #94a3b8; margin-bottom: 25px;">Napište mi na e-mail nebo mě kontaktujte přes sociální sítě.</p>
         <a href="mailto:pavel.zajic@example.com" class="btn">pavel.zajic@example.com</a>
     </section>
-
 
     <footer>
         <p>&copy; 2026 Pavel Zajíc.</p>
